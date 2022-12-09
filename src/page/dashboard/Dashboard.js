@@ -13,7 +13,6 @@ function Dashboard() {
             try{
                 const dataListTodo =await GetTask("tasks");
                 setTasksList(dataListTodo);
-                console.log(dataListTodo);
             } catch (error){}
         };
         fetchListTodo();
